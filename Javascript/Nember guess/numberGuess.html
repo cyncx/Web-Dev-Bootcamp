@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guess</title>
+	<meta charset="utf-8"></meta>	
+	<script src="https://use.fontawesome.com/7fb9cc87b6.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Germania+One|Open+Sans:400,700" rel="stylesheet">
+	
+	<style type="text/css">
+		body{
+			font-size: 15px;
+			font-family: 'Open Sans', Helvetica, Arial;
+			color: #333;
+		}
+		.container{
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 15%;
+		}
+		h1{
+			font-size: 6rem;
+			margin: 0;
+		}
+		.btn{
+			padding: 15px 20px;
+			font-size: 1rem;
+			border: none;
+			border-radius: 4px;
+			background-color: dodgerblue;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+			margin-top: 15px;
+		}
+		.btn:hover {
+			background-color: steelblue;
+			color: #f4f4f4;
+		}
+		hr {
+			max-width: 350px;
+		}
+		html {
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+</h1>
+		<button class="btn prime" onclick="prime()">Give me prime!</button>
+	</div>	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="numberGuess.js"></script>
+</body>
+</html>
