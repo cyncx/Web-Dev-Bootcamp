@@ -1,5 +1,5 @@
 console.log("Print all numbers between 10 and 19")
-var prob1 = 10;
+var prob1 = -10;
 while(prob1 <= 19){
 	console.log(prob1);
 	prob1++;
