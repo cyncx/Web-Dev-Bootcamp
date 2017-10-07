@@ -7,6 +7,8 @@ while(prob1 <= 19){
 console.log("Print all even numbers between 10 and 40")
 var prob2 = 10;
 while(prob2 <= 40){
+	//should probably use prob2 % 2 !== 0
+	//still works though
 	if (prob2 % 2 === 0) {
 		console.log(prob2);
 	}	
