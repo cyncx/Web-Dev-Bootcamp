@@ -1,0 +1,10 @@
+.container{
+	border: 2px solid #525252;
+	width: 100%;
+	max-width: 360px;
+	margin:0 auto;
+}
+.disabled{
+	color: gray;
+	text-decoration: line-through;
+}
