@@ -3,17 +3,19 @@
 <head>
 	<title>jQuery Todo</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet"> 
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script	src="assets/js/lib/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <div class="container">
-	<h1>Todo List</h1>
-	<input type="text">
+	<h1>Todo List <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+</h1>
+	
 	<ul>
-		<li><span>x</span>Go to the black gate</li>
-		<li><span>x</span>Climb Mt. Doom</li>
-		<li><span>x</span>Destroy the Ring</li>
+		<li><span class="check"></span>Go to the black gate <span class="bin"><i class="fa fa-trash-o"></i></span></li>
 	</ul>
+	<input type="text" placeholder="Add new item">
 </div>
 <script type="text/javascript" src="assets/js/todos.js"></script>
 </body>
